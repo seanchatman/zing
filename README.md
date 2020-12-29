@@ -1,6 +1,6 @@
-# Quasar App (zing)
+# Covid Symptom Survey
 
-A Quasar Framework app
+##[Deployed App](https://zing-iota.vercel.app/#/)
 
 ## Install the dependencies
 ```bash
