@@ -1,5 +1,8 @@
 <template>
-  <q-page class="fit row wrap justify-center items-start content-start" padding>
+  <q-page
+    class="page-bg fit row wrap justify-center items-start content-start"
+    padding
+  >
     <q-card
       class="my-card"
       style="width: 500px; margin-top: 100px"
@@ -44,7 +47,6 @@
           v-for="button in currentNode.buttons"
           :key="button.id"
           class="full-width"
-          filled
           @click="onActionButtonClick(button)"
           >{{ button.button_text }}</q-btn
         >
@@ -179,3 +181,8 @@ export default {
   },
 };
 </script>
+<style scoped>
+.page-bg {
+  background-image: linear-gradient(180deg, coral, yellow);
+}
+</style>
