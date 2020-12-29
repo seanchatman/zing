@@ -6,7 +6,7 @@
   "author": "Sean Chatman <xpointsh@gmail.com>",
   "private": true,
   "scripts": {
-    "lint": "eslint --ext .js,.vue ./",
+    "lint": "eslint --fix --ext .js,.vue ./",
     "test": "echo \"No test specified\" && exit 0",
     "start": "quasar dev"
   },
@@ -14,8 +14,7 @@
     "@quasar/extras": "^1.0.0",
     "axios": "^0.18.1",
     "core-js": "^3.6.5",
-    "quasar": "^1.0.0",
-    "vue-json-schema": "^1.1.1"
+    "quasar": "^1.0.0"
   },
   "devDependencies": {
     "@quasar/app": "^2.0.0",
@@ -23,7 +22,8 @@
     "eslint": "^6.8.0",
     "eslint-config-prettier": "^6.9.0",
     "eslint-loader": "^3.0.3",
-    "eslint-plugin-vue": "^6.1.2"
+    "eslint-plugin-vue": "^6.1.2",
+    "prettier": "^2.2.1"
   },
   "browserslist": [
     "last 10 Chrome versions",
