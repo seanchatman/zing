@@ -1,8 +1,8 @@
 {
   "name": "zing",
   "version": "0.0.1",
-  "description": "A Quasar Framework app",
-  "productName": "Quasar App",
+  "description": "A Covid Survey",
+  "productName": "Covid Survey",
   "author": "Sean Chatman <xpointsh@gmail.com>",
   "private": true,
   "scripts": {

@@ -1,6 +1,6 @@
 # Covid Symptom Survey
 
-##[Deployed App](https://zing-iota.vercel.app/#/)
+## [Deployed App](https://zing-iota.vercel.app/#/)
 
 ## Install the dependencies
 ```bash
